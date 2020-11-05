@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    background-color: black;
+    font-family: demi;
+}
+
+/* header */
+
+header {
+    margin: 15px auto;
+    background-color: coral;
+    width: 98%;
+    height: 10vh;
+    border-radius: 5px;
+    font-size: 23px;
+}
+
+/* ****** */
+
+/* Nav bar */
+
+/* ****** */
+
+ul {
+    float: left;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+li {
+    display: inline-block;
+    padding: 20px 25px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid transparent;
+    padding: 15px 28px;
+    border-radius: 8px;
+    transition: background-color 0.4s;
+}
+
+/* Hover */
+
+a:hover {
+    color: coral;
+    background-color: white;
+    font-weight: bold;
+}
+
+/* ************ */
+
+/*  Dropdwon  */
+
+/* ************ */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    /* position: absolute;
+    left: -50;
+    transform: translate(-50%); */
+}
+
+.dropdown-content {
+    display: none;
+    background-color: #f9f9f9;
+    min-width: 140px;
+    /* box-shadow: 0px 12px 16px 0px coral; */
+    z-index: 1;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 10px 16px;
+    text-decoration: none;
+    display: block;
+    font-weight: normal;
+}
+
+.dropdown-content a:hover {
+    background-color: transparent;
+    font-weight: bold;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover {
+    background-color: transparent;
+}
+
+/* ****** */
+
+/* Font */
+
+/* ****** */
+
+@font-face {
+    font-family: demi;
+    src: url(../Lato/Lato-Light.ttf);
+}
