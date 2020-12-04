@@ -107,6 +107,6 @@ a:hover {
 /* ****** */
 
 @font-face {
-    font-family: demi;
+    font-family: "demi";
     src: url(Lato-Light.ttf);
 }
